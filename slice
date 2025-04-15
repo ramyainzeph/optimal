@@ -1,0 +1,107 @@
+package main
+import 
+(
+  "fmt"
+  // "sort"
+  "bytes"
+  )
+
+func main() {
+// 	slice := [5]int {1,2,3,4,5}
+// 	array := slice[1:4] 
+// 	fmt.Println(slice)
+// 	fmt.Println(array)
+	
+// 	newSlice := []int {1,2,3,4,5}
+//   newSlice = append(newSlice, 6, 7, 8)
+//   fmt.Println(newSlice)
+
+// array := [7]string{"Hello","This", "is", "the", "tutorial",
+//                         "of", "Go"}
+//   fmt.Println(array)
+  
+//   myArray :=array[1:6]
+//   fmt.Println(myArray)
+//   fmt.Println(len(myArray))
+//   fmt.Println(cap(myArray))
+
+// array := []string{"Hello","This", "is", "the", "tutorial",
+//                         "of", "Go"}
+//   newArray := array[:]
+//   fmt.Println(newArray)
+  
+  // var array = make([]int,5,14)
+  // fmt.Println(array)
+  // newArray := make([]int,3,4)
+  // fmt.Println(newArray)
+
+
+// myslice := []string{"This", "is", "the", "tutorial",
+//         "of", "Go", "language"}
+        
+//         for e:=0;e<len(myslice);e++{
+//           fmt.Println(myslice[e])
+//         }
+
+// myslice := []string{"This", "is", "the", "tutorial",
+//                                 "of", "Go", "language"}
+// for index,element := range myslice{
+//   fmt.Printf("Index = %d and element = %s\n",index,element)
+// }
+
+// s1 := [][]int{{12,13},{23,24}}
+// fmt.Println("s1 : ", s1)
+
+// 
+
+// intSlice := []int{42, 23, 16, 15, 8, 4}
+
+// sort.Slice(intSlice,func(i,j int)bool{
+//   return intSlice[i] >intSlice[j]
+// })
+//   fmt.Println("descending order:", intSlice)
+
+
+// slice_1 := []byte{'!', '!', 'G', 'e', 'e', 'k', 's', 'f',  
+//                 'o', 'r', 'G', 'e', 'e', 'k', 's', '#', '#'}
+     
+//     slice_2 := []byte{'*', '*', 'A', 'p', 'p', 'l', 'e', '^', '^'}
+     
+//     slice_3 := []byte{'%', 'g', 'e', 'e', 'k', 's', '%'}
+    
+//     fmt.Printf("Slice 1: %s", slice_1)
+//     fmt.Printf("\nSlice 2: %s", slice_2)
+//     fmt.Printf("\nSlice 3: %s", slice_3)
+    
+//     res1 := bytes.Trim(slice_1, "!#")
+//     fmt.Printf("\nSlice 1: %s", res1)
+
+// res1 := bytes.Trim([]byte("***GO Lang***"), "*")
+// fmt.Printf("res1 %s",res1)
+
+// res2 := bytes.Trim([]byte("**Apple**"), "*")
+// fmt.Printf("res2 %s",res2)
+
+// 
+
+// data := []byte("a,b,c")
+// parts := bytes.Split(data,[]byte(","))
+// fmt.Println("Split:")
+// for _,part := range parts{
+//   fmt.Println(string(part))
+// }
+
+// data := []byte("a;b;c")
+// parts := bytes.Split(data,[]byte(";"))
+// fmt.Println("Split using';':")
+// for_,part := range parts{
+//   fmt.Println(string(part))
+// }
+
+data := []byte("abc")
+parts := bytes.Split(data,[]byte{})
+fmt.Println("Split each character:")
+for _,part := range parts{
+  fmt.Println(string(part))
+}
+}
