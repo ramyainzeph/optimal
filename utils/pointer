@@ -1,0 +1,51 @@
+package main
+import "fmt"
+
+// func ptf(a *int){
+//   *a =748
+// }
+
+// func main() {
+
+//   var x =100
+//   fmt.Printf("The value of x before function call is: %d\n", x) 
+  
+//   var pa *int = &x
+//   ptf(pa)
+//       fmt.Printf("The value of x after function call is: %d\n", x) 
+
+// }
+
+// type Person struct{
+//   name string
+//   age int
+// }
+ 
+// func main(){
+//   p1:=Person{name:"A",age:24}
+//   personPointer := &p1
+  
+//   fmt.Println("Name:", personPointer.name)
+//     fmt.Println("Age:", personPointer.age)
+    
+//     personPointer.age = 26
+//     fmt.Println("Updated struct:", p1)
+// }
+
+// func main(){
+  
+//   var V int = 100
+//   var ptr1 *int = &V 
+//   var ptr2 **int = &ptr1
+  
+//   fmt.Println(V)
+//   fmt.Println(&V)
+  
+//   fmt.Println(*ptr1)
+//   fmt.Println(&ptr1)
+  
+//   fmt.Println(ptr2)
+//   fmt.Println(*ptr2)
+//   fmt.Println(**ptr2)
+// }
+
