@@ -1,0 +1,56 @@
+package main
+import "fmt"
+
+
+// func multiplay(a,b int)int{
+//   return a*b
+// }
+// func sums(nums ...int)int{
+//   total := 0
+//   for _,n := range nums{
+//     total+=n
+//   }
+//   return total
+// }
+
+// func greet(prefix string,nums ...int){
+//   fmt.Println(prefix)
+//   for _,n := range nums{
+//     fmt.Println("Number:", n)
+//   }
+// }
+// func main() {
+// //   result := multiplay(5,10)
+// // 	fmt.Printf("multiplication: %d", result)
+// greet("Sum of numbers:", 1, 2, 3)
+//     greet("Another sum:", 4, 5)
+//     greet("No numbers sum:")
+// }
+
+// func main() {
+// value:= func() {
+//     fmt.Println("hi")
+//   }
+//   value()
+  
+// }
+
+// func main(){
+//   func(arg string){
+//     fmt.Println(arg)
+//   }("HLO")
+// }
+
+type number int
+
+func (n number)square()number{
+  return n*n
+}
+
+func main(){
+  a := number(4)
+    b := a.square()
+
+    fmt.Println("Square of", a, "is", b)
+
+}
